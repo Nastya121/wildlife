@@ -1,0 +1,240 @@
+.wrapper{
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding-top: 20px;
+}
+body{
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+
+}
+.header_logo{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.name_logo{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #F7F7F7;
+
+}
+.header_wrapper{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.header_list{
+    display:flex;
+    flex-wrap: wrap; 
+    list-style-type:none; 
+
+}
+.header_list_point{
+    margin-right: 60px;
+}
+.header_list_point:last-child{
+    margin-right:0;
+}
+.header_nav_list{
+    font-size: 23px;
+    line-height: 60px;
+    color: #F7F7F7;
+    text-decoration: none ;
+}
+.header_list_point:hover,.header_list_point:focus,.header_list_point:active{
+opacity: 0.75;
+}
+
+/*header end*/
+
+.intro{
+    height:100vh;
+    background: url(../img/svg/Rectangle.png) no-repeat center;
+    background-size: cover;
+    padding-top:199px;
+    padding-left:120px;
+}
+.intro_title{
+    font-size: 48px;
+line-height: 72px;
+letter-spacing: 2px;
+color: #CD6326;
+}
+.intro_subtitle{
+    font-size: 18px;
+    line-height: 27px;
+    color: #F7F7F7;
+    max-width: 250px;
+    margin-bottom:65px;
+}
+.button{
+    font-family: Roboto;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7F7F7;
+    background: #CD6326;
+    border:0;
+    padding:17px 42px;
+    margin-bottom: 257px;
+}
+
+.button:hover,.button:focus,.button:active{
+    background-color:#884a27;}
+/* intro end*/
+
+/*article*/
+
+.article{
+     font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+     color: #333333;
+     margin-bottom: 20px;
+}
+.more_article{ 
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #666666;
+    margin-bottom: 120px;
+}
+.card{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:60px ;
+    padding:0 100px;
+}
+.cards{
+    height: 360px;
+    width: 300px;
+    margin-bottom: 239px;
+}
+.get_more{
+    font-size: 27px;
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 59px;
+}
+/*serch*/
+
+.serch_form{
+    margin-bottom: 240px;
+    padding-left: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.search_form_qw{
+    height: 60px;
+    width: 540px;
+    padding-left: 15px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #666666;
+}
+.search_form_button{
+    height: 65px;
+    width: 120px;
+    font-family: Roboto;
+    font-size: 23px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    padding:30px;
+    color: #F7F7F7;
+    background-color:  #CD6326;
+    ;
+}
+.search_form_button:hover,.search_form_button:focus,.search_form_button:active{
+    background-color:#884a27;}
+
+/*end serch*/
+
+/*article end*/
+
+
+/*footer*/
+.footer{
+    height: 360px;
+    background: url(../img/svg/footer.jpg);
+    background-size: cover;
+}
+.f_logo{
+    height:70px ;
+    width: 60px;
+    margin-top: 140px;
+    margin-bottom: 150px;
+    margin-left: 120px;
+}
+.f_logo_name{
+    height:60px ;
+    width: 150px;
+    font-family: Roboto;
+    font-size: 32px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #F7F7F7;
+    margin-top: 150px;
+}
+.f_list{
+    margin-top: 150px;
+    display:flex;
+    flex-wrap: wrap; 
+    list-style-type:none;   
+}
+.f_list_point{
+    font-family: Open Sans;
+    font-size: 23px;
+    line-height: 60px;
+   margin-right: 60px;
+ 
+}
+
+.f_list_link{color: #F7F7F7;}
+
+.f_list_link{
+    text-decoration: none ;
+}
+.footer_wrapper{
+    display:flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.f_list_contacts{
+    margin-top: 150px;
+    display:flex;
+    flex-wrap: wrap; 
+    list-style-type:none;  
+}
+.f_list_contacts_point{
+    margin-right: 27px;
+}
+.f_list_contacts_point:last-child{
+    margin-right: 120px;
+}
+.contacts{
+    height: 40px;
+    width: 40px;
+}
+.f_list_point:hover,.f_list_point:focus,.f_list_point:active{
+    opacity: 0.75;
+    }
+/*footer end*/
+
+
+
